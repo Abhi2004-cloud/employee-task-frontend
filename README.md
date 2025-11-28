@@ -1,50 +1,48 @@
-# Employee Task Manager — Frontend
+# Employee & Task Management Dashboard (Frontend)
 
-A responsive React frontend for the Employee & Task Manager assessment. Built with React + Bootstrap.  
-Features include: task CRUD modal, employee list, search, status filter, and aesthetic UI improvements.
+A responsive and interactive **React + Bootstrap** frontend for managing Employees and Tasks.  
+Includes search, filtering, modal-based CRUD operations, and clean UI enhancements.
 
-## Live Demo
-(If deployed on Vercel) https://your-vercel-url.vercel.app
+🔗 **Live Demo:** https://employee-task-frontend-mauve.vercel.app/
 
-## Screenshots
-Add screenshots here or a short GIF demonstrating the app.
+---
 
-## Tech Stack
-- React (Vite)
-- Bootstrap 5
-- Axios (for API calls)
-- uuid (for client-side id generation where needed)
+## 🚀 Features
 
-## Features
-- List employees and tasks
-- Create / Edit / Delete tasks
-- Assign tasks to employees
-- Search and filter tasks by status
-- Responsive layout and improved UI
+### 👨‍💼 Employee Management
+- Add new employees  
+- Edit existing employees  
+- Delete employees  
+- Automatically sync tasks assigned to employees  
 
-## Prerequisites
-- Node.js >= 16
-- npm or yarn
+### 📝 Task Management
+- Create tasks  
+- Edit tasks  
+- Delete tasks  
+- Assign tasks to employees  
+- Status selection (Pending / In Progress / Completed)
 
-## Local Setup
-1. Clone repo:
-   ```bash
-   git clone https://github.com/Abhi2004-cloud/employee-task-frontend.git
-   cd employee-task-frontend
+### 🔍 Search & Filter
+- Global search bar  
+- Filter tasks by status  
+- Instant local filtering (no backend calls)
 
-Install Dependencies - 
-npm install
-# or
-yarn
+### 🎨 UI/UX
+- Beautiful responsive layout using **Bootstrap 5**  
+- Modal-based forms  
+- Icon-based action buttons  
+- Color-coded task statuses  
 
-Start Dev Server
-npm run dev
-# or
-yarn dev
+---
 
-Build for Production
-npm run build
-# or
-yarn build
+## 🛠️ Tech Stack
 
+- **React (Vite)**
+- **Bootstrap 5**
+- **React Icons**
+- **UUID (for unique IDs before backend integration)**
+
+---
+
+## 📁 Project Structure
 
