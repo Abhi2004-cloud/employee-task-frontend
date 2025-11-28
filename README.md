@@ -46,3 +46,29 @@ Includes search, filtering, modal-based CRUD operations, and clean UI enhancemen
 
 ## 📁 Project Structure
 
+src/
+├── components/
+│ ├── EmployeeList.jsx
+│ ├── EmployeeModal.jsx
+│ ├── TaskList.jsx
+│ ├── TaskModal.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## ▶️ Setup & Installation
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/Abhi2004-cloud/employee-task-frontend.git
+cd employee-task-frontend
+```
+
+Install Dependencies - npm install
+Run locally - npm run dev
+
+
+
