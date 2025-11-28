@@ -1,16 +1,50 @@
-# React + Vite
+# Employee Task Manager — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React frontend for the Employee & Task Manager assessment. Built with React + Bootstrap.  
+Features include: task CRUD modal, employee list, search, status filter, and aesthetic UI improvements.
 
-Currently, two official plugins are available:
+## Live Demo
+(If deployed on Vercel) https://your-vercel-url.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+Add screenshots here or a short GIF demonstrating the app.
 
-## React Compiler
+## Tech Stack
+- React (Vite)
+- Bootstrap 5
+- Axios (for API calls)
+- uuid (for client-side id generation where needed)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- List employees and tasks
+- Create / Edit / Delete tasks
+- Assign tasks to employees
+- Search and filter tasks by status
+- Responsive layout and improved UI
 
-## Expanding the ESLint configuration
+## Prerequisites
+- Node.js >= 16
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Setup
+1. Clone repo:
+   ```bash
+   git clone https://github.com/Abhi2004-cloud/employee-task-frontend.git
+   cd employee-task-frontend
+
+Install Dependencies - 
+npm install
+# or
+yarn
+
+Start Dev Server
+npm run dev
+# or
+yarn dev
+
+Build for Production
+npm run build
+# or
+yarn build
+
+
